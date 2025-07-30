@@ -48,7 +48,7 @@ function M.load_syntax()
 		-- TODO: this is a todo comment
 		Todo = { fg = colors.purple, style = "bold" },
 
-		LineNr = { fg = colors.gray3 },
+		LineNr = { fg = colors.base3 },
 		CursorLineNr = { fg = colors.gray8, bg = colors.bg_alt },
 
 		Cursor = { fg = colors.bg, bg = colors.fg },
@@ -95,7 +95,7 @@ function M.load_syntax()
 		TSConstMacro = {},
 		TSConstructor = { fg = colors.fg },
 		TSError = { fg = colors.abs_red, style = "underline,italic" },
-		TSException = { style = "underline,bold" },
+		TSException = { fg = colors.abs_red, style = "underline,bold" },
 		TSField = { fg = colors.gray5 },
 		TSFloat = { fg = colors.fg, style = "bold" },
 		TSFunction = { fg = colors.gray6 },
