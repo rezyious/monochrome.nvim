@@ -98,7 +98,7 @@ function M.load_syntax()
 		TSException = { style = "underline,bold" },
 		TSField = { fg = colors.gray5 },
 		TSFloat = { fg = colors.fg, style = "bold" },
-		TSFunction = { fg = colors.gray6 },
+		TSFunction = { fg = colors.neutral_green }, --NOTE: changed
 		TSFuncBuiltin = { fg = colors.gray4 },
 		TSFuncMacro = { fg = colors.gray6 },
 		TSInclude = { fg = colors.gray7 },
