@@ -142,7 +142,7 @@ function M.load_syntax()
 		TSDanger = { style = "bold" },
 		TSType = { fg = colors.gray4 },
 		TSTypeBuiltin = { fg = colors.gray4 },
-		TSVariable = { fg = colors.gray8 },
+		TSVariable = { fg = colors.abs_white }, -- NOTE: changed
 		TSVariableBuiltin = { fg = colors.gray8 },
 
 		Bold = { link = "TSStrong" },
