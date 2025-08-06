@@ -8,6 +8,7 @@ local Amplified = { "#FFFFFF", "#000000" }
 
 -- LuaFormatter off
 local colors = {
+	abs_green = "#00ff00",
 	abs_red = "#ff0000",
 	abs_white = "#ffffff",
 	abs_yellow = "#ffff00",
