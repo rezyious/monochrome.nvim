@@ -140,7 +140,7 @@ function M.load_syntax()
 		TSNote = { style = "bold" },
 		TSWarning = { style = "bold" },
 		TSDanger = { style = "bold" },
-		TSType = { fg = colors.my_blue }, -- NOTE: changed
+		TSType = { fg = colors.abs_white }, -- NOTE: changed
 		TSTypeBuiltin = { fg = colors.faded_green }, -- NOTE:changed
 		TSVariable = { fg = colors.abs_white }, -- NOTE: changed
 		TSVariableBuiltin = { fg = colors.faded_green }, -- NOTE: changed
