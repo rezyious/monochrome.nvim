@@ -143,7 +143,7 @@ function M.load_syntax()
 		TSType = { fg = colors.faded_blue }, -- NOTE: changed
 		TSTypeBuiltin = { fg = colors.faded_green }, -- NOTE:changed
 		TSVariable = { fg = colors.abs_white }, -- NOTE: changed
-		TSVariableBuiltin = { fg = colors.gray8 },
+		TSVariableBuiltin = { fg = colors.faded_green }, -- NOTE: changed
 
 		Bold = { link = "TSStrong" },
 		Boolean = { link = "TSBoolean" },
