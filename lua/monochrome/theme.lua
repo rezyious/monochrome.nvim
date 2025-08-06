@@ -251,6 +251,9 @@ function M.load_plugin_syntax()
 		GitGutterChangeDelete = { fg = colors.neutral_orange },
 		GitGutterDelete = { fg = colors.neutral_red },
 
+		-- NOTE: added diagnostic colors
+		DiagnosticError = { fg = colors.abs_red },
+
 		LspDiagnosticsVirtualTextError = { fg = colors.faded_red },
 		LspDiagnosticsSignError = { fg = colors.faded_red },
 		LspDiagnosticsFloatingError = { fg = colors.faded_red },
