@@ -125,7 +125,7 @@ function M.load_syntax()
 		TSSymbol = { fg = colors.fg },
 		TSTag = { fg = colors.fg },
 		TSTagDelimiter = {},
-		TSText = { fg = colors.fg },
+		TSText = { fg = colors.abs_white }, --NOTE: changed
 		TSStrong = { style = "bold" },
 		TSEmphasis = { style = "italic" },
 		TSUnderline = { style = "underline" },
