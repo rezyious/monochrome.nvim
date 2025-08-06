@@ -88,7 +88,7 @@ function M.load_syntax()
 		TSBoolean = { fg = colors.fg, style = "bold" },
 		TSCharacter = { fg = colors.fg },
 		-- this is a comment
-		TSComment = { fg = colors.gray3, style = "italic" },
+		TSComment = { fg = colors.base2, style = "italic" },
 		TSConditional = { fg = colors.gray4 },
 		TSConstant = { fg = colors.fg },
 		TSConstBuiltin = { fg = colors.gray3 },
@@ -102,7 +102,7 @@ function M.load_syntax()
 		TSFuncBuiltin = { fg = colors.gray4 },
 		TSFuncMacro = { fg = colors.gray6 },
 		TSInclude = { fg = colors.gray7 },
-		TSKeyword = { fg = colors.abs_yellow },
+		TSKeyword = { fg = colors.abs_yellow }, -- NOTE: changed
 		TSKeywordFunction = { fg = colors.gray4 },
 		TSKeywordOperator = { fg = colors.gray4 },
 		TSKeywordReturn = { fg = colors.gray4 },
