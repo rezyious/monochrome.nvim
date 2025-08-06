@@ -39,7 +39,7 @@ function M.load_syntax()
 	local syntax = {
 
 		Normal = { fg = colors.fg, bg = colors.bg },
-		Terminal = { fg = colors.fg, bg = colors.bg },
+		Terminal = { fg = colors.abs_white, bg = colors.bg }, -- NOTE: changed
 		Visual = { fg = colors.bg, bg = colors.fg },
 		VisualNOS = { fg = colors.bg, bg = colors.fg },
 
@@ -253,6 +253,7 @@ function M.load_plugin_syntax()
 
 		-- NOTE: added diagnostic colors
 		DiagnosticError = { fg = colors.abs_red },
+		-- NOTICE: for adding red color
 
 		LspDiagnosticsVirtualTextError = { fg = colors.faded_red },
 		LspDiagnosticsSignError = { fg = colors.faded_red },
