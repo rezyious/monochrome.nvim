@@ -141,7 +141,7 @@ function M.load_syntax()
 		TSWarning = { style = "bold" },
 		TSDanger = { style = "bold" },
 		TSType = { fg = colors.faded_blue }, -- NOTE: changed
-		TSTypeBuiltin = { fg = colors.gray4 },
+		TSTypeBuiltin = { fg = colors.faded_green }, -- NOTE:changed
 		TSVariable = { fg = colors.abs_white }, -- NOTE: changed
 		TSVariableBuiltin = { fg = colors.gray8 },
 
