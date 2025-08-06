@@ -88,7 +88,7 @@ function M.load_syntax()
 		TSBoolean = { fg = colors.fg, style = "bold" },
 		TSCharacter = { fg = colors.fg },
 		-- this is a comment
-		TSComment = { fg = colors.base2, style = "italic" },
+		TSComment = { fg = colors.base2, style = "italic" }, -- NOTE: changed
 		TSConditional = { fg = colors.gray4 },
 		TSConstant = { fg = colors.fg },
 		TSConstBuiltin = { fg = colors.gray3 },
@@ -119,7 +119,7 @@ function M.load_syntax()
 		TSPunctBracket = { fg = colors.fg },
 		TSPunctSpecial = { fg = colors.fg },
 		TSRepeat = { fg = colors.gray4 },
-		TSString = { fg = colors.gray9 },
+		TSString = { fg = colors.base3 }, --NOTE: changed
 		TSStringRegex = { fg = colors.gray9 },
 		TSStringEscape = { fg = colors.gray9 },
 		TSSymbol = { fg = colors.fg },
